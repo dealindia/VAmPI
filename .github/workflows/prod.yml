@@ -4,7 +4,7 @@ name: Prod Deploy
 # pass, the deploy waits for a reviewer to approve the `production` environment.
 on:
   push:
-    branches: [main]
+    branches: [main, master]
   workflow_dispatch:
 
 permissions:
